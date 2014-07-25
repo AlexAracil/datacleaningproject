@@ -15,7 +15,7 @@ The variables that were estimated from these signals are
 
 The first two 
 
-1  subject: integer. Experiment subjects. Values: 1:30 
+1  subject: integer. Experiment subjects. Values: 1:30
 2  activity: factor. Activities performed by the experiment subjects. Levels: 1 WALKING, 2 WALKING_UPSTAIRS, 3 WALKING_DOWNSTAIRS, 4 SITTING,5 STANDING, 6 LAYING
 3  tbodyaccmeanx: real. Time domain, accelerometer body signal, X axis, Mean value
 4  tbodyaccmeany: real. Time domain, accelerometer body signal, Y axis, Mean value
