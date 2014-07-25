@@ -13,9 +13,9 @@ The variables that were estimated from these signals are
 * mean: Mean value
 * std: Standard deviation
 
-The first two 
+Here is the list of features in the data frame:
 
-1  subject: integer. Experiment subjects. Values: 1:30 
+1  subject: integer. Experiment subjects. Values: 1:30
 2  activity: factor. Activities performed by the experiment subjects. Levels: 1 WALKING, 2 WALKING_UPSTAIRS, 3 WALKING_DOWNSTAIRS, 4 SITTING,5 STANDING, 6 LAYING
 3  tbodyaccmeanx: real. Time domain, accelerometer body signal, X axis, Mean value
 4  tbodyaccmeany: real. Time domain, accelerometer body signal, Y axis, Mean value
@@ -83,3 +83,4 @@ The first two
 66 fbodybodygyromagstd: real.
 67 fbodybodygyrojerkmagmean: real.
 68 fbodybodygyrojerkmagstd: real.
+
