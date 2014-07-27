@@ -43,9 +43,9 @@ tidy_data <- rbind(data_train, data_test)
 write.table(tidy_data, "./tidy_data.txt", quote=FALSE)
 
 ## Cleaning everything except tidy_data
-## rm(data_test, data_train, x_test, x_train, x_test_selection, x_train_selection)
-## rm(y_test, y_train, subject_test, subject_train, features, activity_labels)
-## rm(labels, act_labels, activity_test, activity_train, index)
+rm(data_test, data_train, x_test, x_train, x_test_selection, x_train_selection)
+rm(y_test, y_train, subject_test, subject_train, features, activity_labels)
+rm(labels, act_labels, activity_test, activity_train, index)
 
 ## Generating second data set with average data for subjects and activites
 tidy_data_mean <- aggregate(. ~ Subject + Activity, data = tidy_data, mean)
