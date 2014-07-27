@@ -16,7 +16,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 ### Processed dataset information
 
-The original data in this dataset has been reshaped, in order to have all the information required in one only tidy dataset. Subject and activity information have been added to the train and test main datasets. The resulting train and test datasets have been merged. After that, only some of the features have been extracted, those with mean and standard deviation values. Variable names have been fixed, removing hyphen and parenthesis characters and expanding the name components. Text variable values and labels have been left or converted to CamelCase in order to improve readability.
+The original data in this dataset has been reshaped, in order to have all the information required in one only tidy dataset. Subject and activity information has been added to the train and test main datasets. The resulting train and test datasets have been merged. After that, only some of the features have been extracted, those with mean and standard deviation values. Variable names have been fixed, removing hyphen and parenthesis characters and expanding the name components. Text variable values and labels have been left or converted to CamelCase in order to improve readability.
 
 The resulting dataset is a data.frame called **tidy_data** with 68 variables and 10299 observations, and a text file called **tidy\_data.txt**.
 
