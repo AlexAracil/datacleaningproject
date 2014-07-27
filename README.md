@@ -6,7 +6,7 @@ The purpose of this project is to demonstrate our ability to collect, work with,
 
 This repository includes the present **README.md** file, a **CodeBook.md** file, explaning the source of the data and the transformation applied to this data in order to obtain the resulting tidy dataset. It contains the R scripts used to process the data, **run_analysis.R**, **read_data.R** and **process_data.R**. At last, it contains also the resulting datasets in two text files, **tidy_data.txt** and **tidy_data_mean.txt**.
 
-The script run\_analysis.R consists in two calls, to external R scripts files. The first one, read\_data.R, reads the text files containing the original data. The second one, process\_data.R to generate the required tidy data and does the following:
+The script run\_analysis.R consists in two calls, to external R scripts files. The first one, read\_data.R, reads the text files containing the original data. This files should be contained in a subdirectory called **UCI HAR Dataset** located inside working directory, keeping the original file structure in the original compressed archive. The second one, process\_data.R to generate the required tidy data and does the following:
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
