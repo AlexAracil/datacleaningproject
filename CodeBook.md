@@ -20,7 +20,7 @@ The original data in this dataset has been reshaped, in order to have all the in
 
 The resulting dataset is a data.frame called **tidy_data** with 68 variables and 10299 observations, and a text file called **tidy\_data.txt**.
 
-There is also a second tidy dataset containing the mean of all variables for each subject and activity in a data.frame called **tidy\_data\_mean**, and a text file called **tidy\_data\_mean.txt**. The variable names are the same for both datasets.
+There is also a second tidy dataset containing the mean of all variables for each subject and activity in a data.frame called **tidy\_data\_mean** with 68 variables and 180 obsservations, and a text file called **tidy\_data\_mean.txt**. The variable names are the same for both datasets.
 
 
 ### Features list
