@@ -2,7 +2,7 @@
 
 ### Original dataset information
 
-This dataset has been generated from the **UCI Human Activity Recognition Using Smartphones Dataset Version 1.0**:
+This dataset has been generated from **UCI Human Activity Recognition Using Smartphones Dataset Version 1.0**:
 
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.  
 Smartlab - Non Linear Complex Systems Laboratory  
@@ -16,7 +16,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 ### Processed dataset information
 
-The original data in this dataset has been reshaped, in order to have all the information required in one only tidy dataset. Subject and cctivity information has been added to the train and test main datasets. The resulting train and test datasets have been merged. After that, only some of the features have been extracted, those with mean and standard deviation values. Variable names have been fixed, removing hyphen and parenthesis characters and expanding the name components. Text variable values and labels have been left or converted to CamelCase in order to improve readability.
+The original data in this dataset has been reshaped, in order to have all the information required in one only tidy dataset. Subject and activity information have been added to the train and test main datasets. The resulting train and test datasets have been merged. After that, only some of the features have been extracted, those with mean and standard deviation values. Variable names have been fixed, removing hyphen and parenthesis characters and expanding the name components. Text variable values and labels have been left or converted to CamelCase in order to improve readability.
 
 The resulting dataset is a data.frame called **tidy_data** with 68 variables and 10299 observations, and a text file called **tidy\_data.txt**.
 
@@ -28,7 +28,7 @@ There is also a second tidy dataset containing the mean of all variables for eac
 Here is the list of features in the data frame:
 
 1. 	**Subject**: integer. Experiment subjects. Values: 1:30  
-2.	**Activity**: factor. Activities performed by the experiment subjects. Levels: 1 Walking, 2 WalkingUpstairs, 3 WalkingDownstairs, 4 Sitting,5 Standing, 6 Laying  
+2.	**Activity**: factor. Activities performed by the experiment subjects. Levels: 1 Walking, 2 WalkingUpstairs, 3 WalkingDownstairs, 4 Sitting, 5 Standing, 6 Laying  
 3.	**TimeBodyAccelerometerMeanX**: real. Time domain, accelerometer body signal, X axis, Mean value  
 4.	**TimeBodyAccelerometerMeanY**: real. Time domain, accelerometer body signal, Y axis, Mean value  
 5.	**TimeBodyAccelerometerMeanZ**: real. Time domain, accelerometer body signal, Z axis, Mean value  
