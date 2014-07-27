@@ -7,7 +7,7 @@ labels <- gsub("std","StdDev",labels)
 labels <- gsub("Acc","Accelerometer",labels)
 labels <- gsub("Gyro","Gyroscope",labels)
 labels <- gsub("Mag","Magnitude",labels)
-labels <- gsub("BodyBody","Body",labels)	## Fixinf double "Body" label
+labels <- gsub("BodyBody","Body",labels)	## Fixing "double Body" label
 
 ## Assigning new labels to data names
 names(x_test) <- labels
@@ -28,7 +28,7 @@ tocamel <- function(x){				## This function converts underscore to camelcase
 act_labels <- tolower(activity_labels$V2)
 act_labels <- sapply(act_labels, tocamel)
 
-## Assigning new activity lebles as factors
+## Assigning new activity labels as factors
 activity_test <- factor(y_test$V1, labels = act_labels)
 activity_train <- factor(y_train$V1, labels = act_labels)
 
@@ -42,7 +42,7 @@ names(data_train)[1] <- "Subject"
 names(data_test)[2] <- "Activity"
 names(data_train)[2] <- "Activity"
 
-## Mergin test and train data and writing to file
+## Merging test and train data and writing to file
 tidy_data <- rbind(data_train, data_test)
 write.table(tidy_data, "./tidy_data.txt", quote=FALSE)
 
